@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@keyframes btn-ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 168, 107, 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 14px transparent;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+.btn-effect-ripple {
+  animation: btn-ripple 1.8s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+@keyframes badge-pulse {
+  0%, 100% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.06);
+  }
+}
+
+.badge-pulse {
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+
+@keyframes cd-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+.cd-pulse {
+  animation: cd-pulse 1.2s ease-in-out infinite;
+}

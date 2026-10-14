@@ -1,0 +1,6 @@
+{
+  "name": "+100 Artes e Diagramas de Nutrição",
+  "description": "Kit com +100 Artes e Diagramas de Nutrição prontos para nutricionistas criarem conteúdos profissionais no Instagram, WhatsApp e consultório.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
